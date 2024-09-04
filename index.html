@@ -3,12 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carrito de compras</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    
 </head>
+
 <body class="body">
     <h1 class="title">Compra de productos</h1>
+
+    <div class="container d-flex justify-content-center grid gap-5 ">
+      <div class="card " style="width: 18rem;">
+        <img src="./img/jabon.jpg" class="h-50 d-inline-block" alt="imagen de balde con espuma y producto jabon de coches">
+        <div class="card-body">
+          <h5 class="card-title text-center">Jabon</h5>
+          <p class="card-text text-center">jabon con cera</p>
+          <p class="card-text text-center">de alta espuma</p>
+          <p class="card-text text-center">$1200 + IVA</p>
+          <br>
+          <a href="#" class="btn btn-primary position-absolute bottom-20 start-50 translate-middle-x ">Añadir al carrito</a>
+        </div>
+      </div> 
+
+      <div class="card" style="width: 18rem;">
+        <img src="./img/shampoo.jpg" class="h-50 d-inline-block" alt="imagen de coche siendo lavado con bastante espuma">
+        <div class="card-body">
+          <h5 class="card-title text-center">Shampoo</h5>
+          <p class="card-text text-center">Shampoo automotriz</p>
+          <p class="card-text text-center">ultra brillo</p>
+          <p class="card-text text-center">$1400 + IVA</p>
+          <br>
+          <a href="#" class="btn btn-primary position-absolute bottom-20 start-50 translate-middle-x ">Añadir al carrito</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./img/Foam-Lance-Snow-Foam.jpg" class=" h-50 d-inline-block" alt="imagen de maquina de espuma, lavando auto">
+        <div class="card-body">
+          <h5 class="card-title text-center">Espuma Foam Lance</h5>
+          <p class="card-text text-center">Generador de espuma</p>
+          <p class="card-text text-center">para Hidrolavadoras</p>
+          <p class="card-text text-center">$2200 + IVA</p>
+          <br>
+          <a href="#" class="btn btn-primary position-absolute bottom-20 start-50 translate-middle-x ">Añadir al carrito</a>
+        </div>
+      </div>
+      </div>
+    <br>
+      <div class="article">
+        <button id="compra">Comprar productos</button>
+          <h2>Carrito de compras</h2>
+          <p id="compraste"></p>
+          <button id="mostrarCarrito">Mostrar carrito</button>
+          <div id="tableCarrito">
+          </div>
+      </div>
     
-    <script src="./script/script.js"></script>
+    
+   <script src="./script/script2.js"></script> 
 </body>
 </html>

@@ -1,7 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .body {
-    background-color: rgb(51, 110, 89);
+    background-color: rgb(48, 65, 70);
+    color: rgb(182, 182, 182);
 }
 
 .title {
     text-align: center;
+    background-color: rgb(48, 65, 70);
 }
+
+.article {
+    background-color: rgb(48, 65, 70);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    color: rgb(185, 185, 185);
+};
+
