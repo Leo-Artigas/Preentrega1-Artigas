@@ -6,20 +6,53 @@
 
 
 .body {
-    background-color: rgb(48, 65, 70);
-    color: rgb(182, 182, 182);
+    background-color: rgb(29, 28, 28);
+    color: rgb(248, 243, 243);
 }
 
 .title {
     text-align: center;
-    background-color: rgb(48, 65, 70);
+    background-color: rgb(29, 28, 28);
 }
 
 .article {
-    background-color: rgb(48, 65, 70);
+    background-color: rgb(29, 28, 28);
     text-align: center;
     text-transform: uppercase;
     text-decoration-line: underline;
-    color: rgb(185, 185, 185);
+    color: rgb(255, 253, 253);
 };
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+   
+}
+
+.carrito {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0a69c2;
+    border-radius: 8px;
+    max-width: 400px;
+    box-shadow: 20px 20px 40px rgba(255, 255, 255, 0.1);
+}
+
+.carrito h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.carrito ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.carrito li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#total {
+    font-weight: bold;
+}

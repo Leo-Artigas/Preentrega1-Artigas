@@ -48,7 +48,7 @@ function procesoCompra () {
         else {
             alert("Gracias por preferirnos");
         };
-    };
+};
 
 function mostrarMenu () {
     return prompt("Elige el producto que desees \n 1: Jabon \n 2: Shampoo \n 3: Espuma \n 0: Terminar compra");

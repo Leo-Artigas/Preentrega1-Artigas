@@ -21,7 +21,9 @@
           <p class="card-text text-center">de alta espuma</p>
           <p class="card-text text-center">$1200 + IVA</p>
           <br>
-          <a href="#" class="btn btn-primary position-absolute bottom-20 start-50 translate-middle-x ">Añadir al carrito</a>
+          <button id="boton1" class="btn btn-primary position-absolute bottom-20 start-50 translate-middle-x ">
+              Añadir al carrito
+          </button>
         </div>
       </div> 
 
@@ -33,7 +35,9 @@
           <p class="card-text text-center">ultra brillo</p>
           <p class="card-text text-center">$1400 + IVA</p>
           <br>
-          <a href="#" class="btn btn-primary position-absolute bottom-20 start-50 translate-middle-x ">Añadir al carrito</a>
+          <button id="boton2" class="btn btn-primary position-absolute bottom-20 start-50 translate-middle-x ">
+              Añadir al carrito
+          </button>
         </div>
       </div>
 
@@ -45,21 +49,31 @@
           <p class="card-text text-center">para Hidrolavadoras</p>
           <p class="card-text text-center">$2200 + IVA</p>
           <br>
-          <a href="#" class="btn btn-primary position-absolute bottom-20 start-50 translate-middle-x ">Añadir al carrito</a>
+          <button id="boton3" class="btn btn-primary position-absolute bottom-20 start-50 translate-middle-x ">
+            Añadir al carrito
+          </button>
         </div>
       </div>
       </div>
     <br>
       <div class="article">
-        <button id="compra">Comprar productos</button>
           <h2>Carrito de compras</h2>
           <p id="compraste"></p>
-          <button id="mostrarCarrito">Mostrar carrito</button>
+          <button id="mostrarCarrito" class="btn btn-primary position-absolute bottom-20 start-50 translate-middle-x">Mostrar carrito</button>
           <div id="tableCarrito">
           </div>
       </div>
-    
-    
-   <script src="./script/script2.js"></script> 
+
+
+
+      <div id="carro" class="carrito">
+        <h2>Tu Carrito</h2>
+        <ul id="lista-carrito">
+            <!-- Los productos añadidos aparecerán aquí -->
+        </ul>
+        <p>Total: $<span id="total">0.00</span></p>
+    </div>
+
+    <script src="./script/script3.js"></script> 
 </body>
 </html>
