@@ -19,7 +19,7 @@ body {
 .login-container h2 {
     text-align: center;
     margin-bottom: 20px;
-};
+}
 
 .form-group {
     margin-bottom: 15px;
@@ -40,7 +40,7 @@ body {
     width: 100px;
     background-color: rgb(61, 112, 3);
     color: white
-};
+}
 
 button {
     width: 100%;
